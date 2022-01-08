@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<style>
+		.parentBlock {
+			width: 700px;
+			height: 50px;
+			border: 1px solid red;
+            position: relative;
+		}
+		.block {
+			height: 100%;
+			width: 70px;
+            background-color: blue;
+            position: absolute;
+		}
+		.move {
+            margin-top: 50px;
+		}
+	</style>
+</head>
+<body>
+
+<!--<div>-->
+<!--	<label for="phoneInput">Phone number</label>-->
+<!--	<input id="phoneInput" placeholder="+996 xxx xx-xx-xx" type="text">-->
+<!--	<button id="phoneBtn">Check</button>-->
+<!--	<span id="phoneResult"></span>-->
+<!--</div>-->
+
+
+<div class="parentBlock">
+	<div class="block"></div>
+</div>
+<button class="move">move</button>
+
+<script src="app.js"></script>
+</body>
+</html>
