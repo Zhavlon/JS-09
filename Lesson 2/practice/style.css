@@ -1,0 +1,19 @@
+.btn-block {
+    padding: 10px;
+    background-color: grey;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background-color: yellow;
+    border: none;
+    transition: 0.3s all;
+    margin: 10px;
+}
+.red {
+    background-color: red;
+}
