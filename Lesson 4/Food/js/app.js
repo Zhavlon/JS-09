@@ -82,7 +82,23 @@ function openModalScroll() {
 
 
 // clock
-const deadline = '2021-02-2'
+const deadline = '2022-02-2'
+
+function getTimeRemaining(deadline) {
+	const t = new Date(deadline) - new Date(),
+		days = Math.floor((t / (1000 * 60 * 60 * 24))),
+		hours = Math.floor((t / (1000 * 60 * 60) % 24)),
+		minutes = Math.floor((t / 1000 / 60) % 60),
+		seconds = Math.floor((t / 1000) % 60);
+
+	return {
+		"total": t,
+		"days": days,
+		"hours": hours,
+		"minutes": minutes,
+		"seconds": seconds
+	}
+}
 
 function setClock(parent, deadline) {
 	const parentBlock = document.querySelector(parent)
@@ -105,34 +121,10 @@ function setClock(parent, deadline) {
 
 	function updateClock() {
 		const t = getTimeRemaining(deadline)
-
-		if(t.total < 0){
-			days.innerText = 0
-			hours.innerText = 0
-			seconds.innerText = 0
-			minutes.innerText = 0
-		} else {
-			days.innerText = addZero(t.days)
-			hours.innerText = addZero(t.hours)
-			minutes.innerText = addZero(t.minutes)
-			seconds.innerText = addZero(t.seconds)
-		}
-	}
-}
-
-function getTimeRemaining(deadline) {
-	const t = new Date(deadline) - new Date(),
-		days = Math.floor((t / (1000 * 60 * 60 * 24))),
-		hours = Math.floor((t / (1000 * 60 * 60) % 24)),
-		minutes = Math.floor((t / 1000 / 60) % 60),
-		seconds = Math.floor((t / 1000) % 60);
-
-	return {
-		"total": t,
-		"days": days,
-		"hours": hours,
-		"minutes": minutes,
-		"seconds": seconds
+		days.innerText = addZero(t.days)
+		hours.innerText = addZero(t.hours)
+		minutes.innerText = addZero(t.minutes)
+		seconds.innerText = addZero(t.seconds)
 	}
 }
 setClock('.timer', deadline)
