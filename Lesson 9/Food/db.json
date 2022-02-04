@@ -1,0 +1,117 @@
+{
+  "menu": [
+    {
+      "img": "img/tabs/vegy.jpg",
+      "altimg": "vegy",
+      "title": "Меню 'Фитнес'",
+      "descr": "Меню 'Фитнес' - это новый подход к приготовлению блюд: больше свежих овощей и фруктов. Продукт активных и здоровых людей. Это абсолютно новый продукт с оптимальной ценой и высоким качеством!",
+      "price": 9
+    },
+    {
+      "img": "img/tabs/post.jpg",
+      "altimg": "post",
+      "title": "Меню 'Постное'",
+      "descr": "Меню 'Постное' - это тщательный подбор ингредиентов: полное отсутствие продуктов животного происхождения, молоко из миндаля, овса, кокоса или гречки, правильное количество белков за счет тофу и импортных вегетарианских стейков.",
+      "price": 14
+    },
+    {
+      "img": "img/tabs/elite.jpg",
+      "altimg": "elite",
+      "title": "Меню 'Премиум'",
+      "descr": "В меню 'Премиум' мы используем не только красивый дизайн упаковки, но и качественное исполнение блюд. Красная рыба, морепродукты, фрукты - ресторанное меню без похода в ресторан!",
+      "price": 21
+    }
+  ],
+  "requests": [
+    {
+      "name": "asdfasdf",
+      "phone": "sdfsdf",
+      "id": 1
+    },
+    {
+      "name": "asdf",
+      "phone": "sdfsd",
+      "id": 2
+    },
+    {
+      "name": "asdfs",
+      "phone": "sdfsdds",
+      "id": 3
+    },
+    {
+      "name": "sadf",
+      "phone": "sdf",
+      "id": 4
+    },
+    {
+      "name": "asdfs",
+      "phone": "sdfsdf",
+      "id": 5
+    },
+    {
+      "name": "adsfsad",
+      "phone": "sdfsdfds",
+      "id": 6
+    },
+    {
+      "name": "asdf",
+      "phone": "sdfds",
+      "id": 7
+    },
+    {
+      "name": "asfsd",
+      "phone": "sdfsd",
+      "id": 8
+    },
+    {
+      "name": "asfds",
+      "phone": "sdfsdf",
+      "id": 9
+    },
+    {
+      "name": "asfasdf",
+      "phone": "sdfsd",
+      "id": 10
+    },
+    {
+      "name": "asfasdf",
+      "phone": "sdfsdfds",
+      "id": 11
+    },
+    {
+      "name": "asfsa",
+      "phone": "sdfsd",
+      "id": 12
+    },
+    {
+      "name": "asdfasdf",
+      "phone": "dsfsdfds",
+      "id": 13
+    },
+    {
+      "name": "asdfsadf",
+      "phone": "sdfsdfds",
+      "id": 14
+    },
+    {
+      "name": "sdfsad",
+      "phone": "sdfds",
+      "id": 15
+    },
+    {
+      "name": "asdfsfasd",
+      "phone": "sdfsdfsd",
+      "id": 16
+    },
+    {
+      "name": "sdf",
+      "phone": "sdfsdf",
+      "id": 17
+    },
+    {
+      "name": "asdfsad",
+      "phone": "sdfds",
+      "id": 18
+    }
+  ]
+}

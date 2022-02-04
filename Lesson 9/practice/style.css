@@ -1,0 +1,18 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+label {
+    font-size: 22px;
+}
+
+input {
+    padding: 10px 15px;
+}
+.usd {
+    margin-top: 50px;
+}
